@@ -1,3 +1,5 @@
-## joyrOOOm's Capstone project [SeeFit] 🤓
+## joyrOOOm's Capstone project [Care Spoon] 
 
-SeeFit provides service of AR eyeglasses fitting with segmentation of existing eyeglasses and inpainting it
+### Care Spoon Provides..
+- Diet Statistics by taking picture of one meal.
+- Medication Condition by using OCR of picture of prescription
