@@ -122,9 +122,9 @@
 ## Backend
 - Java: jdk 17
 ``` sudo apt-get install openjdk-11-jdk```
-- MySQL : 8.0.31
+- MySQL: 8.0.31
 - Deployment VM: Ubuntu 20.04
-- Base URL : 34.64.211.6:8080
+- Base URL: 34.64.211.6:8080
 ### Dependency
 ```
     implementation 'org.springframework.boot:spring-boot-starter-web'
