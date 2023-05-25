@@ -120,7 +120,22 @@
 </br>
 
 ## Backend
+- Java - jdk 17
 
+### Dependency
+```
+buildscript {
+    ext {
+        queryDslVersion = "5.0.0"
+    }
+}
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.6.3'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id "com.ewerk.gradle.plugins.querydsl" version "1.0.10"
+}
+```
 </br>
 
 ## AI
