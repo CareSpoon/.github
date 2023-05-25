@@ -120,21 +120,26 @@
 </br>
 
 ## Backend
-- Java - jdk 17
-
+- Java: jdk 17
+``` sudo apt-get install openjdk-11-jdk```
+- MySQL : 8.0.31
+- Deployment VM: Ubuntu 20.04
+- Base URL : 34.64.211.6:8080
 ### Dependency
 ```
-buildscript {
-    ext {
-        queryDslVersion = "5.0.0"
-    }
-}
-plugins {
-    id 'java'
-    id 'org.springframework.boot' version '2.6.3'
-    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
-    id "com.ewerk.gradle.plugins.querydsl" version "1.0.10"
-}
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'javax.persistence:javax.persistence-api:2.2'
+    implementation 'org.springframework:spring-core:5.3.15'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation "com.querydsl:querydsl-jpa:${queryDslVersion}"
+    implementation "com.querydsl:querydsl-apt:${queryDslVersion}"
+    implementation 'com.google.firebase:firebase-admin:7.1.0'
+    implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.2.2'
+    implementation 'mysql:mysql-connector-java:8.0.31'
+    implementation platform('com.google.cloud:libraries-bom:26.14.0')
+    implementation 'com.google.cloud:google-cloud-storage'
 ```
 </br>
 
