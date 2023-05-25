@@ -21,7 +21,7 @@
 
 |         Frontend         |             Backend           |               AI              |       
 | :----------------------: | :---------------------------: | :---------------------------: |
-| ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=Kotlin&logoColor=white) | |
+| ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=Kotlin&logoColor=white) | | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Android&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white) ![YOLOv5](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=YOLO&logoColor=white)  |
 
 </br>
 
@@ -124,6 +124,41 @@
 </br>
 
 ## AI
+### Requirement
+- Python: 3.7
+```
+pip install -r requirements.txt
+```
+### AI model
+<table class="tg">
+<tbody>
+  <tr>
+    <td><b>Model</b></td>
+    <td>YOLOv5 custom dataset 사용하여 학습</td>
+  </tr>
+<tr>
+    <td><b>Serving</b></td>
+    <td>FastAPI 사용하여 AI 모델 서빙</td>
+  </tr>
+<tr>
+    <td><b>Dataset</b></td>
+<td>AI HUB 음식 이미지 및 영양정보 텍스트 전처리 후 사용</td>
+</tr>
+ <tr>
+    <td><b>Train</b></td>
+<td>final_best.pt<br/>100 epoch</td>
+</tr>
+<tr>
+    <td><b>Accuracy</b></td>
+    <td>Class: 한식 10종<br/>mAP@50: 0.98<br/>mAP@50-95:0.86</td>
+</tr>
+<tr>
+    <td><b>Result</b></td>
+    <td><img width="400" src="https://github.com/CareSpoon/.github/assets/79077316/212f749d-0603-435d-9170-f418621e8a8f"></td>
+</tr>
+</tbody>
+</table>
+</br>
 
 </br>
 
