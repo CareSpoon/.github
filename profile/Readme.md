@@ -21,9 +21,7 @@
 
 |         Frontend         |             Backend           |               AI              |       
 | :----------------------: | :---------------------------: | :---------------------------: |
-| ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=Kotlin&logoColor=white) | ![Spring](https://img.shields.io/badge/Springboot-6DB33F?style=flat-square&logo=Springboot&logoColor=white)
-![GoogleCloud](https://img.shields.io/badge/GoogleCloud-4285F4?style=flat-square&logo=GoogleCloud&logoColor=white)
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Android&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white) ![YOLOv5](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=YOLO&logoColor=white)  |
+| ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=Kotlin&logoColor=white) | ![Spring](https://img.shields.io/badge/Springboot-6DB33F?style=flat-square&logo=Springboot&logoColor=white) ![GoogleCloud](https://img.shields.io/badge/GoogleCloud-4285F4?style=flat-square&logo=GoogleCloud&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=Mysql&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Android&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white) ![YOLOv5](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=YOLO&logoColor=white)  |
 
 </br>
 
