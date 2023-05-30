@@ -85,6 +85,10 @@
 
 </br>
 
+## Project Architecture
+![image](https://github.com/CareSpoon/.github/assets/79795051/8a2c4354-07ce-49de-918e-b417a31bfa28)
+
+</br>
 
 ## Android
 ### Software requirement
@@ -179,10 +183,5 @@ pip install -r requirements.txt
 </tbody>
 </table>
 </br>
-
-</br>
-
-## Project Architecture
-![image](https://github.com/CareSpoon/.github/assets/79795051/8a2c4354-07ce-49de-918e-b417a31bfa28)
 
 </br>
