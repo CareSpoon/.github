@@ -160,7 +160,11 @@
 
 ## AI
 ### Requirement
+- OS: Ubuntu 20.04
 - Python: 3.7
+- FastAPI: 0.95.0
+- PyTorch: 1.10.0
+- Tensorflow: 1.13.1
 ```
 pip install -r requirements.txt
 ```
