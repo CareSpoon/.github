@@ -164,7 +164,7 @@
 ```
 pip install -r requirements.txt
 ```
-### AI model
+### Classification Model
 <table class="tg">
 <tbody>
   <tr>
@@ -195,4 +195,30 @@ pip install -r requirements.txt
 </table>
 </br>
 
+### Volume Estimation Model
+<table class="tg">
+<tbody>
+  <tr>
+    <td><b>Model</b></td>
+    <td>1. Mask RCNN 기반 Segmentation<br/>2. CNN 기반 Depth Estimation</td>
+  </tr>
+<tr>
+    <td><b>Serving</b></td>
+    <td>FastAPI 사용하여 AI 모델 서빙</td>
+  </tr>
+<tr>
+    <td><b>Dataset</b></td>
+<td><a href="https://drive.google.com/drive/folders/1IE1s7aWVpynwrdJFeYlJxb3n80VKqxxL">food videos dataset</a></td>
+</tr>
+  <tr>
+    <td><b>Example</b></td>
+    <td><img width="400" src="https://github.com/CareSpoon/.github/assets/79077316/e7665b07-da54-4c07-a2a6-aff720e3330c"></td>
+  </tr>
+  <tr>
+    <td><b>Result</b></td>
+    <td><img src="https://github.com/CareSpoon/.github/assets/79077316/42dc21f0-f4e3-4974-92c8-e7c3cd27e442"></td>
+</tr>
+</tbody>
+</table>
+</br>
 </br>
